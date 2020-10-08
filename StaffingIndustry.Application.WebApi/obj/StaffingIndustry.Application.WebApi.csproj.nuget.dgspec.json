@@ -1,0 +1,279 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.WebApi\\StaffingIndustry.Application.WebApi.csproj": {}
+  },
+  "projects": {
+    "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.DataAccess\\StaffingIndustry.Application.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.DataAccess\\StaffingIndustry.Application.DataAccess.csproj",
+        "projectName": "StaffingIndustry.Application.DataAccess",
+        "projectPath": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.DataAccess\\StaffingIndustry.Application.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\pradi\\.nuget\\packages\\",
+        "outputPath": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pradi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Model\\StaffingIndustry.Application.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Model\\StaffingIndustry.Application.Model.csproj",
+        "projectName": "StaffingIndustry.Application.Model",
+        "projectPath": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Model\\StaffingIndustry.Application.Model.csproj",
+        "packagesPath": "C:\\Users\\pradi\\.nuget\\packages\\",
+        "outputPath": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pradi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Service\\StaffingIndustry.Application.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Service\\StaffingIndustry.Application.Service.csproj",
+        "projectName": "StaffingIndustry.Application.Service",
+        "projectPath": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Service\\StaffingIndustry.Application.Service.csproj",
+        "packagesPath": "C:\\Users\\pradi\\.nuget\\packages\\",
+        "outputPath": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pradi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.DataAccess\\StaffingIndustry.Application.DataAccess.csproj": {
+                "projectPath": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.DataAccess\\StaffingIndustry.Application.DataAccess.csproj"
+              },
+              "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Model\\StaffingIndustry.Application.Model.csproj": {
+                "projectPath": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Model\\StaffingIndustry.Application.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.WebApi\\StaffingIndustry.Application.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.WebApi\\StaffingIndustry.Application.WebApi.csproj",
+        "projectName": "StaffingIndustry.Application.WebApi",
+        "projectPath": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.WebApi\\StaffingIndustry.Application.WebApi.csproj",
+        "packagesPath": "C:\\Users\\pradi\\.nuget\\packages\\",
+        "outputPath": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pradi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Model\\StaffingIndustry.Application.Model.csproj": {
+                "projectPath": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Model\\StaffingIndustry.Application.Model.csproj"
+              },
+              "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Service\\StaffingIndustry.Application.Service.csproj": {
+                "projectPath": "E:\\Aqore\\StaffingIndustry\\StaffingIndustry.Application.Service\\StaffingIndustry.Application.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
