@@ -15,8 +15,4 @@
 		<ProjectReference Include="..\StaffingIndustry.Application.Model\StaffingIndustry.Application.Model.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Employee\" />
-	</ItemGroup>
-
 </Project>

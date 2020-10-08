@@ -50,5 +50,25 @@ namespace StaffingIndustry.Application.WebApi.Areas.Customer
                 throw e;
             }
         }
+
+
+        [HttpPost]
+        public IActionResult EditCustomer([FromBody] MvEditCustomer customer)
+        {
+            try
+            {
+                var edited = _customerService.EditCustomer(customer);
+                if (!edited)
+                {
+                    return BadRequest();
+                }
+                return Ok();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
     }
 }
