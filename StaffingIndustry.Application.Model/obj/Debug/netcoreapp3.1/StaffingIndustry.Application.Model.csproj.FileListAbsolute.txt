@@ -1,0 +1,9 @@
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Model\bin\Debug\netcoreapp3.1\StaffingIndustry.Application.Model.deps.json
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Model\bin\Debug\netcoreapp3.1\StaffingIndustry.Application.Model.dll
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Model\bin\Debug\netcoreapp3.1\StaffingIndustry.Application.Model.pdb
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Model\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Model.csprojAssemblyReference.cache
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Model\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Model.AssemblyInfoInputs.cache
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Model\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Model.AssemblyInfo.cs
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Model\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Model.csproj.CoreCompileInputs.cache
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Model\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Model.dll
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Model\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Model.pdb

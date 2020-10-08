@@ -1,0 +1,14 @@
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\bin\Debug\netcoreapp3.1\StaffingIndustry.Application.Service.deps.json
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\bin\Debug\netcoreapp3.1\StaffingIndustry.Application.Service.dll
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\bin\Debug\netcoreapp3.1\StaffingIndustry.Application.Service.pdb
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\bin\Debug\netcoreapp3.1\StaffingIndustry.Application.DataAccess.dll
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\bin\Debug\netcoreapp3.1\StaffingIndustry.Application.Model.dll
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\bin\Debug\netcoreapp3.1\StaffingIndustry.Application.DataAccess.pdb
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\bin\Debug\netcoreapp3.1\StaffingIndustry.Application.Model.pdb
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Service.csprojAssemblyReference.cache
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Service.AssemblyInfoInputs.cache
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Service.AssemblyInfo.cs
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Service.csproj.CoreCompileInputs.cache
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Service.csproj.CopyComplete
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Service.dll
+E:\Aqore\StaffingIndustry\StaffingIndustry.Application.Service\obj\Debug\netcoreapp3.1\StaffingIndustry.Application.Service.pdb
