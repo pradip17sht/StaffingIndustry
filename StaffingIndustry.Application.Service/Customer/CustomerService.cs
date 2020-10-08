@@ -68,7 +68,7 @@ namespace StaffingIndustry.Application.Service.Customer
                 var jsonNew = JsonConvert.SerializeObject(customer);
                 var cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.CommandText = "SpCustomerInsTsk";
+                cmd.CommandText = "SpCustomerInsertTsk";
                 cmd.Parameters.Add("@Json", SqlDbType.NVarChar).Value = jsonNew;
                 cmd.CommandTimeout = _commandTimeout;
 
@@ -90,7 +90,7 @@ namespace StaffingIndustry.Application.Service.Customer
                 var jsonNew = JsonConvert.SerializeObject(customer);
                 var cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.CommandText = "SpOrganizationUpdTsk";
+                cmd.CommandText = "SpOrganizationUpdateTsk";
                 cmd.Parameters.Add("@Json", SqlDbType.NChar).Value = jsonNew;
                 cmd.CommandTimeout = _commandTimeout;
 
