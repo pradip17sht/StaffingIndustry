@@ -1,4 +1,4 @@
-import { MvTransaction } from './../transaction.model';
+import { MvTransaction } from '../transaction.model';
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
@@ -40,10 +40,10 @@ export class TransactionFormComponent implements OnInit {
     this.as.getAllAssignmentDetail().subscribe(res => {
       if (res && res.data) {
         res.data.forEach(item => {
-          if (item.AssignmentId) {
+          if (item.assignmentId) {
             this.assignments.push({
-              value: item.AssignmentId,
-              viewValue: `${item.AssignmentId}`
+              value: item.assignmentId,
+              viewValue: `${item.assignmentId}`
             });
           }
         });

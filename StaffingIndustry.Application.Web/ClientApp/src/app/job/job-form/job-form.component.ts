@@ -28,9 +28,9 @@ export class JobFormComponent implements OnInit {
 
   ngOnInit(): void {
     this.jobForm = this.fb.group({
+      jobTitle: [this.job.jobTitle, Validators.required],
       customerId: [this.job.customerId, Validators.required],
       payPerHour: [this.job.payPerHour, Validators.required],
-      jobTitle: [this.job.jobTitle, Validators.required],
       });
     this.fetchCustomers();
 
@@ -56,9 +56,9 @@ export class JobFormComponent implements OnInit {
   }
 
   submitForm(): void {
+    this.job.jobTitle = this.jobForm.get('jobTitle').value;
     this.job.customerId = this.jobForm.get('customerId').value;
     this.job.payPerHour = this.jobForm.get('payPerHour').value;
-    this.job.jobTitle = this.jobForm.get('jobTitle').value;
     this.dialogRef.close(this.job);
   }
 }
