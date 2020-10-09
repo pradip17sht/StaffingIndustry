@@ -1,0 +1,40 @@
+<div class="form-container">
+  <mat-toolbar color="primary">{{action}} Customer</mat-toolbar>
+  <form class="customer-form" [formGroup]="customerForm">
+    
+    <mat-form-field appearance="fill">
+      <label><b>OrganizationName </b></label>
+      <input matInput formControlName="organizationName" [(ngModel)]="selectedCustomer.organizationName" placeholder="organizationName" required >
+      <mat-error *ngIf="customerForm.controls['organizationName'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <label><b>City </b></label>
+      <input matInput formControlName="city" [(ngModel)]="selectedCustomer.city" placeholder="city" required>
+      <mat-error *ngIf="customerForm.controls['city'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <label><b>State </b></label>
+      <input matInput formControlName="state" [(ngModel)]="selectedCustomer.state" placeholder="state" required>
+      <mat-error *ngIf="customerForm.controls['state'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <label><b>PhoneNo </b></label>
+      <input matInput formControlName="phoneNo" [(ngModel)]="selectedCustomer.phoneNo" placeholder="phoneNo" required>
+      <mat-error *ngIf="customerForm.controls['phoneNo'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <label><b>EmailId </b></label>
+      <input matInput formControlName="emailId" [(ngModel)]="selectedCustomer.emailId" placeholder="emailId" required>
+      <mat-error *ngIf="customerForm.controls['emailId'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+
+  </form>
+  <div mat-dialog-actions>
+    <button mat-raised-button color="primary" (click)="onSubmit()" [disabled]="customerForm.invalid">Save</button>
+    <button mat-raised-button color="warn" (click)="onClose()">Close</button>
+  </div>
+</div>

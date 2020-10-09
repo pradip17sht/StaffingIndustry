@@ -14,6 +14,7 @@ using StaffingIndustry.Application.Service.Assignment;
 using StaffingIndustry.Application.Service.Customer;
 using StaffingIndustry.Application.Service.Employee;
 using StaffingIndustry.Application.Service.Job;
+using StaffingIndustry.Application.Service.Transaction;
 
 namespace StaffingIndustry.Application.WebApi
 {
@@ -49,6 +50,8 @@ namespace StaffingIndustry.Application.WebApi
             services.AddTransient<IJobService, JobService>();
 
             services.AddTransient<IAssignmentService, AssignmentService>();
+
+            services.AddTransient<ITransactionService, TransactionService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

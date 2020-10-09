@@ -1,0 +1,54 @@
+<h1>Customer Details</h1>
+
+<div>
+  <button mat-raised-button (click)="addCustomer()" color="primary"> Add Customer</button>
+  <button mat-raised-button (click)="editCustomer()" color="warn" class="ml-3">Edit Customer</button>
+<br>
+<br>
+  <h4>Available Customer</h4>
+   <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <ng-container matColumnDef="organizationId">
+      <mat-header-cell *matHeaderCellDef> OrganizationId </mat-header-cell>
+      <mat-cell *matCellDef="let CustomerDetail"> {{CustomerDetail.organizationId}} </mat-cell>
+    </ng-container>
+    
+    <ng-container matColumnDef="customerId">
+      <mat-header-cell *matHeaderCellDef> CustomerId </mat-header-cell>
+      <mat-cell *matCellDef="let CustomerDetail"> {{CustomerDetail.customerId}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="organizationName">
+      <mat-header-cell *matHeaderCellDef> OrganizationName </mat-header-cell>
+      <mat-cell *matCellDef="let CustomerDetail"> {{CustomerDetail.organizationName}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="city">
+      <mat-header-cell *matHeaderCellDef> City </mat-header-cell>
+      <mat-cell *matCellDef="let CustomerDetail"> {{CustomerDetail.city}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="state">
+      <mat-header-cell *matHeaderCellDef> State </mat-header-cell>
+      <mat-cell *matCellDef="let CustomerDetail"> {{CustomerDetail.state}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="phoneNo">
+      <mat-header-cell *matHeaderCellDef> PhoneNo</mat-header-cell>
+      <mat-cell *matCellDef="let CustomerDetail"> {{CustomerDetail.phoneNo}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="emailId">
+      <mat-header-cell *matHeaderCellDef> EmailId </mat-header-cell>
+      <mat-cell *matCellDef="let CustomerDetail"> {{CustomerDetail.emailId}} </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;" (click)="selectRow($event, row)"
+    [ngClass]="{hovered: row.hovered, highlighted: selection.isSelected(row)}" (mouseover)="row.hovered = true"
+    (mouseout)="row.hovered = false">
+
+    </mat-row>
+
+  </mat-table>
+  <span *ngIf="userMessage != ''" style="color: red;font-size: medium;font-weight: bold;"> {{userMessage}}</span>
+</div>
