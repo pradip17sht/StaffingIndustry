@@ -8,6 +8,7 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { MaterialModule } from './shared/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { InvoiceComponent } from './invoice/invoice.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -30,6 +31,10 @@ const appRoutes: Routes = [
   {
     path: 'transaction',
     loadChildren: () => import('./transaction/transaction.module').then(m => m.TransactionModule)
+  },
+  {
+    path: 'invoice',
+    loadChildren: () => import('./invoice/invoice.module').then(m => m.InvoiceModule)
   }
 ];
 @NgModule({
